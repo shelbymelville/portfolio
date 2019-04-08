@@ -8,6 +8,10 @@ body {
  font-family: "proxima-nova",sans-serif !important;
 }
 
+.title {
+  color: black;
+}
+
 @viewport {
   width: device-width ;
   zoom: 1.0 ;
@@ -90,4 +94,16 @@ body {
 /* When you move the mouse over the subnav container, open the subnav content */
 .subnav:hover .subnav-content {
   display: block;
+}
+
+h1 {
+  color: black;
+  font-size: 30px;
+  padding-left: 20px;
+}
+
+h2 {
+  color: black;
+  padding: 4px;
+  padding-left: 20px;
 }
