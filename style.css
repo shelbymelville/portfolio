@@ -1,1 +1,93 @@
- 
+/* CSS files add styling rules to your content */
+
+body {
+ background: #fff;
+ margin: 0;
+ padding: 0;
+ font-size: 15px;
+ font-family: "proxima-nova",sans-serif !important;
+}
+
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+}
+
+@-ms-viewport {
+  width: device-width ;
+}
+
+/* The navigation menu */
+.navbar {
+ margin: 0;
+ padding-top: 0px;
+ background-color: #dee8eb;
+ overflow: hidden;
+ margin-bottom: 60px;
+}
+
+.nav-content {
+   padding-top: 100px;
+}
+
+/* Navigation links */
+.navbar a {
+  float: right;
+  font-size: 16px;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* The subnavigation menu */
+.subnav {
+  float: right;
+  overflow: hidden;
+}
+
+/* Subnav button */
+.subnav .subnavbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 16px;
+  padding-top: 0px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+/* Add a background color to navigation links on hover */
+.navbar a:hover, .subnav:hover .subnavbtn {
+  color: #EB7859;
+}
+
+/* Style the subnav content - positioned absolute */
+.subnav-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  background-color: #EB7859;
+  width: 100%;
+  z-index: 1;
+}
+
+/* Style the subnav links */
+.subnav-content a {
+  float: right;
+  color: white;
+  text-decoration: none;
+}
+
+/* Add a grey background color on hover */
+.subnav-content a:hover {
+  background-color: #dee8eb;
+  color: #EB7859;
+}
+
+/* When you move the mouse over the subnav container, open the subnav content */
+.subnav:hover .subnav-content {
+  display: block;
+}
