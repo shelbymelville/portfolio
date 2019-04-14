@@ -1,15 +1,15 @@
 /* CSS files add styling rules to your content */
 
 body {
- background-image: url(images/background.jpg);
+ background-image: url(images/.jpg);
  -webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: cover;
  margin: 0;
  padding: 0;
  font-size: 15px;
- font-family: "proxima-nova",sans-serif !important;
+ font-family: "segoe script",sans-serif !important;
 }
 
 .title {
@@ -27,11 +27,13 @@ background-size: cover;
 
 /* The navigation menu */
 .navbar {
- margin: 0;
- padding-top: 0px;
- background-color: #008080;
- overflow: hidden;
- margin-bottom: 60px;
+ text-align: center;
+ position: static;
+ top: 50px;
+ right: 0px;
+ color: black;
+ display: inline-block;
+ margin-left: 85%;
 }
 
 .nav-content {
@@ -40,64 +42,20 @@ background-size: cover;
 }
 
 /* Navigation links */
-.navbar a {
-  float: right;
-  color: white;
-  font-size: 16px;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-/* The subnavigation menu */
-.subnav {
-  float: right;
-  overflow: hidden;
-}
-/* Subnav button */
-.subnav .subnavbtn {
-  font-size: 16px;
-  border: none;
-  outline: none;
-  color: white;
-  padding: 14px 16px;
-  padding-top: 15px;
-  background-color: inherit;
-  font-family: inherit;
-  margin: 0;
-}
-
 /* Add a background color to navigation links on hover */
-.navbar a:hover, .subnav:hover .subnavbtn {
-  color: #31004a;
-  font-weight: bold;
-}
-
-/* Style the subnav content - positioned absolute */
-.subnav-content {
-  display: none;
-  position: absolute;
-  left: 0;
-  background-color: #31004a;
-  width: 100%;
-  z-index: 1;
-}
-
-/* Style the subnav links */
-.subnav-content a {
-  float: right;
-  color: white;
+.navbar a {
+  color: black;
+  font-size: 16px;
   text-decoration: none;
+  text-shadow: 1px 1px 0 alpha(white,0.4);
+  background-image: linear-gradient(to right, white 50%, yellow 50%);
+  background-position: 0;
+  background-size: 200%;
+  transition: all 0.4s;
 }
 
-/* Add a grey background color on hover */
-.subnav-content a:hover {
-  background-color: #dee8eb;
-  color: #31004a;
-}
-
-/* When you move the mouse over the subnav container, open the subnav content */
-.subnav:hover .subnav-content {
-  display: block;
+.navbar a:hover {
+    background-position: -100%;
 }
 
 h1 {
