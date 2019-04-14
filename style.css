@@ -9,7 +9,11 @@ body {
  margin: 0;
  padding: 0;
  font-size: 15px;
- font-family: "segoe script",sans-serif !important;
+ font-family: "segoe print",sans-serif !important;
+}
+
+p, li {
+  font-size: 18px;
 }
 
 .title {
@@ -29,15 +33,13 @@ body {
 .navbar {
  text-align: center;
  position: static;
- top: 50px;
- right: 0px;
  color: black;
  display: inline-block;
- margin-left: 85%;
+ float: left;
+ padding-top: 10px;
 }
 
 .nav-content {
-   padding-top: 40px;
    color: white;
 }
 
@@ -52,6 +54,7 @@ body {
   background-position: 0;
   background-size: 200%;
   transition: all 0.4s;
+  display: block;
 }
 
 .navbar a:hover {
@@ -59,13 +62,49 @@ body {
 }
 
 h1 {
+  font-family: "segoe script",sans-serif !important;
   color: black;
   font-size: 30px;
-  padding-left: 20px;
+  margin: 0;
 }
 
 h2 {
   color: black;
-  padding: 4px;
-  padding-left: 20px;
+  font-size: 24px;
+  margin: 0;
+}
+
+footer {
+  font-size: 14px;
+}
+
+/* CSS Grid  */
+.head {
+  grid-area: header;
+}
+.navbar {
+  grid-area: menu;
+}
+.item3 {
+  grid-area: main;
+}
+.item4 {
+  grid-area: right;
+}
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header menu'
+    'main main main right right menu'
+    'main main main right right menu';
+  grid-gap: 0;
+  background-color: #2196F3;
+  /* padding: 10px; */
+}
+
+.grid-container > div {
+  background-color: white;
+  text-align: left;
+  padding: 20px 20px;
+  font-size: 30px;
 }
