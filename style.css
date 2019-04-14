@@ -1,7 +1,8 @@
 /* CSS files add styling rules to your content */
 
 body {
- background-image: url(images/.jpg);
+ background-image: url(images/background.jpg);
+ background-repeat: no-repeat;
  -webkit-background-size: cover;
  -moz-background-size: cover;
  -o-background-size: cover;
@@ -55,6 +56,7 @@ p, li {
   background-size: 200%;
   transition: all 0.4s;
   display: block;
+  margin: 20px;
 }
 
 .navbar a:hover {
@@ -81,6 +83,7 @@ footer {
 /* CSS Grid  */
 .head {
   grid-area: header;
+
 }
 .navbar {
   grid-area: menu;
@@ -94,12 +97,15 @@ footer {
 .grid-container {
   display: grid;
   grid-template-areas:
-    'header header header header header menu'
-    'main main main right right menu'
-    'main main main right right menu';
+    'header header header header header '
+    'main main right right menu'
+    'main main right right menu';
   grid-gap: 0;
-  background-color: #2196F3;
+  grid-template-columns: repeat(5, 1fr);
+  /* background-color: #2196F3; */
   /* padding: 10px; */
+  margin-left: 5%;
+  margin-top: 3%;
 }
 
 .grid-container > div {
