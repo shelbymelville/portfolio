@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Handlee');
 /* CSS files add styling rules to your content */
 
 body {
@@ -10,11 +11,11 @@ body {
  margin: 0;
  padding: 0;
  font-size: 15px;
- font-family: "segoe print",sans-serif !important;
+ font-family: 'Handlee', cursive;
 }
 
 p, li {
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .title {
@@ -48,7 +49,7 @@ p, li {
 /* Add a background color to navigation links on hover */
 .navbar a {
   color: black;
-  font-size: 16px;
+  font-size: 20px;
   text-decoration: none;
   text-shadow: 1px 1px 0 alpha(white,0.4);
   background-image: linear-gradient(to right, white 50%, yellow 50%);
@@ -64,7 +65,6 @@ p, li {
 }
 
 h1 {
-  font-family: "segoe script",sans-serif !important;
   color: black;
   font-size: 30px;
   margin: 0;
