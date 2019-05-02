@@ -98,8 +98,8 @@ footer {
   display: grid;
   grid-template-areas:
     'header header header header header '
-    'main main right right menu'
-    'main main right right menu';
+    'main main main right menu'
+    'main main main right menu';
   grid-gap: 0;
   grid-template-columns: repeat(5, 1fr);
   /* background-color: #2196F3; */
