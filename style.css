@@ -76,6 +76,16 @@ h2 {
   margin: 0;
 }
 
+h3 {
+  color: black;
+  font-size: 20px;
+  margin: 0;
+}
+
+video {
+  padding: 40px;
+}
+
 footer {
   font-size: 14px;
 }
