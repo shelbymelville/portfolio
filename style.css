@@ -1,5 +1,14 @@
 /* CSS files add styling rules to your content */
+/* Viewport is set to control the size of the page on varying devices */
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+}
+@-ms-viewport {
+  width: device-width ;
+}
 
+/* The body is styled, this sets the basic rules for content in the body */
 body {
  background-image: url(images/background.jpeg);
  background-repeat: no-repeat;
@@ -13,27 +22,16 @@ body {
  font-family: 'Courier New', cursive;
 }
 
+/* Paragraphs and list items are styled to have spacing  */
 p, li {
   font-size: 20px;
   font-weight: normal;
   padding-bottom: 2px;
 }
 
-.title {
-  color: black;
-}
-
+/* The social media links are styled */
 .icon {
   width: 40px;
-}
-
-@viewport {
-  width: device-width ;
-  zoom: 1.0 ;
-}
-
-@-ms-viewport {
-  width: device-width ;
 }
 
 /* The navigation menu */
@@ -45,10 +43,10 @@ p, li {
  float: left;
 }
 
+/* Navigation colour is set */
 .nav-content {
    color: white;
 }
-
 /* Navigation links */
 /* Add a background color to navigation links on hover */
 .navbar a {
@@ -63,44 +61,41 @@ p, li {
   display: block;
   margin: 20px;
 }
-
 .navbar a:hover {
     background-position: -100%;
 }
 
+/* Headings are styled for use over multiple pages */
 h1 {
   color: black;
   font-size: 30px;
   margin: 0;
 }
-
 h2 {
   color: black;
   font-size: 24px;
   margin: 0;
 }
-
 h3 {
   color: black;
   font-size: 20px;
   margin: 0;
 }
 
+/* Adobe XD files are styled to size correctly and prevent overlapping of grid items */
 .desktop {
   width: 1092px;
   height: 633px;
+  max-width: 100%;
 }
-
 .mobile {
   width: 288px;
   height: 624px;
-}
-
-footer {
-  font-size: 14px;
+  max-width: 100%;
 }
 
 /* CSS Grid  */
+/* Grid areas are defined */
 .head {
   grid-area: header;
 }
@@ -113,6 +108,7 @@ footer {
 .item4 {
   grid-area: right;
 }
+/* Grid container is defined along with the layout/template */
 .grid-container {
   display: grid;
   grid-template-areas:
@@ -124,7 +120,7 @@ footer {
   margin-left: 5%;
   margin-top: 2%;
 }
-
+/* The divs inside each container are also styled */
 .grid-container > div {
   background-color: white;
   text-align: left;
