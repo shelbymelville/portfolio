@@ -1,7 +1,7 @@
 /* CSS files add styling rules to your content */
 
 body {
- background-image: url(images/background.jpg);
+ background-image: url(images/background.jpeg);
  background-repeat: no-repeat;
  -webkit-background-size: cover;
  -moz-background-size: cover;
@@ -84,6 +84,16 @@ h3 {
   color: black;
   font-size: 20px;
   margin: 0;
+}
+
+.desktop {
+  width: 1092px;
+  height: 633px;
+}
+
+.mobile {
+  width: 288px;
+  height: 624px;
 }
 
 footer {
