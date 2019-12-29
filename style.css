@@ -54,7 +54,7 @@ p, li {
   font-size: 20px;
   text-decoration: none;
   text-shadow: 1px 1px 0 alpha(white,0.4);
-  background-image: linear-gradient(to right, white 50%, yellow 50%);
+  background-image: linear-gradient(to right, white 50%, cyan 50%);
   background-position: 0;
   background-size: 200%;
   transition: all 0.4s;
