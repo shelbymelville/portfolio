@@ -79,6 +79,9 @@ p, li {
 .navbar3 {
   background-image: linear-gradient(to right, white 50%, magenta 50%);
 }
+.navbar4 {
+  background-image: linear-gradient(to right, white 50%, green 50%);
+}
 
 /* Headings are styled for use over multiple pages */
 h1 {
