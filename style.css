@@ -54,12 +54,12 @@ p, li {
 }
 /* Navigation links */
 /* Add a background color to navigation links on hover */
-.navbar1 a {
+.navbar a {
   color: black;
   font-size: 20px;
   text-decoration: none;
   text-shadow: 1px 1px 0 alpha(white,0.4);
-  background-image: linear-gradient(to right, white 50%, cyan 50%);
+  /*background-image: linear-gradient(to right, white 50%, cyan 50%);*/
   background-position: 0;
   background-size: 200%;
   transition: all 0.4s;
@@ -69,21 +69,12 @@ p, li {
 .navbar a:hover {
     background-position: -100%;
 }
-/* Secondary background nav colour */
-.navbar2 a {
-  color: black;
-  font-size: 20px;
-  text-decoration: none;
-  text-shadow: 1px 1px 0 alpha(white,0.4);
-  background-image: linear-gradient(to right, white 50%, pink 50%);
-  background-position: 0;
-  background-size: 200%;
-  transition: all 0.4s;
-  display: block;
-  margin: 20px;
+/* Background nav colour */
+.navbar1 {
+  background-image: linear-gradient(to right, white 50%, cyan 50%);
 }
-.navbar2 a:hover {
-    background-position: -100%;
+.navbar2 {
+  background-image: linear-gradient(to right, white 50%, pink 50%);
 }
 
 /* Headings are styled for use over multiple pages */
