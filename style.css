@@ -88,6 +88,12 @@ p, li {
 .navbar4 {
   background-image: linear-gradient(to right, white 50%, lime 50%);
 }
+.navbar5 {
+  background-image: linear-gradient(to right, white 50%, orange 50%);
+}
+.navbar6 {
+  background-image: linear-gradient(to right, white 50%, purple 50%);
+}
 
 /* Headings are styled for use over multiple pages */
 h1 {
