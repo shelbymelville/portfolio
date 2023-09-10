@@ -135,13 +135,13 @@ h3 {
     'main main main right right';
   grid-gap: 0;
   grid-template-columns: repeat(5, 1fr);
-  margin-left: 5%;
-  margin-top: 2%;
+  margin-left: 4%;
+  margin-top: 1%;
 }
 /* The divs inside each container are also styled */
 .grid-container > div {
   background-color: white;
   text-align: left;
-  padding: 20px 20px;
+  padding: 15px 15px;
   font-size: 30px;
 }
