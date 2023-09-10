@@ -143,9 +143,9 @@ h3 {
 .grid-container {
   display: grid;
   grid-template-areas:
-    'header header header header menu '
-    'main main main right menu'
-    'main main main right menu';
+    'header header header menu menu'
+    'main main main right right'
+    'main main main right right';
   grid-gap: 0;
   grid-template-columns: repeat(5, 1fr);
   margin-left: 4%;
