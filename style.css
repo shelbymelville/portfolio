@@ -29,6 +29,13 @@ p, li {
   padding-bottom: 1px;
 }
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
 /* The social media links are styled */
 .icon {
   width: 40px;
