@@ -51,7 +51,7 @@ p, li {
  position: static;
  color: black;
  display: inline-block;
- float: left;
+ float: right;
 }
 
 /* Navigation colour is set */
@@ -70,7 +70,7 @@ p, li {
   background-size: 200%;
   transition: all 0.4s;
   display: block;
-  margin: 10px;
+  margin: 5px;
 }
 .navbar a:hover {
     background-position: -100%;
