@@ -52,6 +52,7 @@ p, li {
  color: black;
  display: inline-block;
  float: right;
+ margin: 10px;
 }
 
 /* Navigation colour is set */
