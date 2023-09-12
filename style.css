@@ -31,6 +31,7 @@ p, li {
 
 .center {
   display: block;
+  margin-top: 1;
   margin-left: auto;
   margin-right: auto;
 }
@@ -101,12 +102,12 @@ h1 {
 h2 {
   color: black;
   font-size: 24px;
-  margin: 2;
+  margin: 1;
 }
 h3 {
   color: black;
   font-size: 20px;
-  margin: 2;
+  margin: 1;
 }
 
 /* Adobe XD files are styled to size correctly and prevent overlapping of grid items */
