@@ -76,6 +76,11 @@ p, li {
 .navbar a:hover {
     background-position: -100%;
 }
+
+.navbarselect {
+  background-position: -100%;
+}
+
 /* Background nav colour */
 .navbar1 {
   background-image: linear-gradient(to right, white 50%, cyan 50%);
