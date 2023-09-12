@@ -77,7 +77,7 @@ p, li {
     background-position: -100%;
 }
 
-.navbar .active a {
+.navbar a:active {
   background-position: -100%;
 }
 
