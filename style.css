@@ -77,10 +77,6 @@ p, li {
     background-position: -100%;
 }
 
-.navbar a:active {
-  background-position: -100%;
-}
-
 /* Background nav colour */
 .navbar1 {
   background-image: linear-gradient(to right, white 50%, cyan 50%);
