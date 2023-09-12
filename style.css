@@ -77,7 +77,7 @@ p, li {
     background-position: -100%;
 }
 
-.navbarselect {
+.navbar .active a {
   background-position: -100%;
 }
 
