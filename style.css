@@ -50,7 +50,7 @@ p, li {
  text-align: center;
  position: static;
  color: black;
- display: inline-block;
+ display: block;
  float: right;
  margin: 10px;
 }
